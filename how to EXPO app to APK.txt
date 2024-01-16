@@ -1,0 +1,29 @@
+how to create apk
+
+step 1:     npm install -g eas-cli
+
+step 2:     eas build -p android     
+
+  NOTE: if it gives error run this  "Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force" before running it again
+	after running again it would create eas.json file
+
+step 3:  It may ask for expo account username and password and also "Y" prompt to get going and then it will start the 
+process. once it reaches "Build details: https://expo.dev/accounts/habib9292/projects/myapp/builds/
+c14e85af-6261-4bd5-bba1-b98281587bfa" like  line. click Ctrl + C and abort it 
+
+
+step 4: Now go to docs.expo.dev/build-reference/apk/   find eas.json there  and copy till the preview3 block( included)
+
+step 5: go to your project eas.json and replace this  till 'preview3' code with the existing till 'preview' block 
+
+step 6: save it and   eas build -p android --profile preview
+
+final step: just wait and watch till it provides you a link to your apk
+
+
+
+
+
+
+
+
