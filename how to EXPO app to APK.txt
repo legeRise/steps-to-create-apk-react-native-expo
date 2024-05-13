@@ -2,6 +2,9 @@ how to create apk
 
 step 1:     npm install -g eas-cli
 
+Note: sometimes it may not recongnize 'eas'  ---- so for that run this in cmd "npm config get prefix" and the path 
+you get just go to enviroment variables and add to path
+
 step 2:     eas build -p android     
 
   NOTE: if it gives error run this  "Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force" before running it again
